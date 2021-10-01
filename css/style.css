@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 2800px;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+body {
+    background-image: url(../img/1614783265_63-p-serie-foni-dlya-saita-78.jpg);
+}
+.intro {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.volleyball {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ballimg {
+    position: absolute;
+    background-image: url(../img/kisspng-beach-volleyball-sport-volleyball-net-tascosa-high-5b220c3e1e7ad4.8248980815289580141249.png);
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    top: 475px;
+    left: 600px;
+}
+.volleyball_part1 {
+    display: flex;
+    height: 600px;
+}
+.volleyball_part1__intro {
+    width: 45%;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+.volleyball_part1__photo {
+    width: 40%;
+    height: 400px;
+    background-image: url(../img/photo_2021-10-01_18-35-26.jpg);
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.volleyball_part2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.volleyball_part2__photo1 {
+    background-image: url(../img/cubok.jpg);
+    background-size: cover;
+    width: 30%;
+    margin-left: 50px;
+}
+.volleyball_part2__photo2 {
+    width: 60%;
+    background-image: url(../img/together.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-left: 50px;
+}
+.volleyball_conclusion {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+}
+.games {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+}
+.games_intro {
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.games_photo {
+    width: 60%;
+    background-image: url(../img/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+}
+.js {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.js_intro {
+    width: 82%;
+    margin: 70px auto;
+    font-size: 25px;
+}
+.js_photo {
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(../img/js.jpg);
+    background-size: cover;
+    background-position: center;
+}
